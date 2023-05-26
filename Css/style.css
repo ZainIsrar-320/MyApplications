@@ -1,0 +1,38 @@
+:root {
+    --main-bg-color: #00b7ff;
+    /* --main-bg-color2: #a10fa1b0; */ 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    max-height: 100vw;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+    background-color: var(--main-bg-color);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.footer {
+    background-color: var(--main-bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 6vh;
+}

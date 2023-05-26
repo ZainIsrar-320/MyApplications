@@ -1,0 +1,17 @@
+.appbox {
+    height: 35vh;
+    min-width: 25vw;
+    background-color: red;
+    margin: 3rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.appbox a{
+    text-decoration: none;
+}
